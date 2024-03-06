@@ -27,7 +27,7 @@ import './App.css';
 // export default App;
 
 import {Diego, GianMarco} from './components/Profile';
-// import gianmarco from '../assets/gianmarco.jpeg';
+// import gianmarco from './assets/gianmarco.jpeg';
 // import Card from './components/Card';
 // import { Diego } from './components/Profile';
 // import Profile from './Profile.js';  //se in Profile.js c'è un export con default
