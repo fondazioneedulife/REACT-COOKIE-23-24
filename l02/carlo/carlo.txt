@@ -1,1 +1,0 @@
-ciao sono carlo, da branch "branch_di_carlo"
