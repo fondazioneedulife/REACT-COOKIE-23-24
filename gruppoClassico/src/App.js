@@ -26,9 +26,10 @@ import './App.css';
 
 // export default App;
 
-import {Diego, GianMarco} from './components/Profile';
-// import gianmarco from './assets/gianmarco.jpeg';
-// import Card from './components/Card';
+// import {Diego, GianMarco} from './components/Profile';
+import gianmarco from './assets/gianmarco.jpeg';
+import diego from './assets/diego.jpg';
+import Card from './components/Card';
 // import { Diego } from './components/Profile';
 // import Profile from './Profile.js';  //se in Profile.js c'è un export con default
 
@@ -44,15 +45,17 @@ export default function Gallery() {
         
         <div className="row">
           <div className="col-2"></div>
-          <div className="col-4"><Diego></Diego></div>
-          <div className="col-4"><GianMarco/></div>
+          {/* <div className="col-4"><Diego></Diego></div>
+          <div className="col-4"><GianMarco/></div> */}
 
-          {/* <div className="col-4">
-            <Card imgPath = {gianmarco} elenco = "Html, css, javascript, react, pyhton, java, c, sql, mariaDB"></Card>
+          <div className="col-4">
+            <h1>Gian Marco</h1>
+            <Card imgPath = {gianmarco} elenco = "Html, css, javascript, react, pyhton, java, c, sql, mariaDB" messaggio="..."></Card>
           </div>
           <div className="col-4">
-            <Card imgPath = {gianmarco} elenco = "Html, css, javascript, typescript, react, pyhton, java, c, sql, mariaDB"></Card>
-          </div> */}
+            <h1>Diego</h1>
+            <Card imgPath = {diego} elenco = "Html, css, javascript, typescript, react, pyhton, java, c, sql, mariaDB" messaggio="ps: viva la privacy"></Card>
+          </div>
 
           <div className="col-2"></div>
         </div>
