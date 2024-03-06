@@ -1,0 +1,116 @@
+/* aggiunta */
+h1{
+  color: #61dafb; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  color: greenyellow; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titolo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+*{
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.container{
+  margin:0 auto;
+  width: 100%;
+}
+.clearfix::after{ /*per evitare che il float dia fastidio al testo (attaccato alla navbar) */
+  content: "";
+  clear: both;
+  display: block;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"]{
+  padding: 15px;
+  /* border: 1px solid red; */
+  float: left;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 24.99%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+
+/* ORIGINALE */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
