@@ -2,12 +2,14 @@ export default function Profile({ url, nome }) {
     return (
         <>
             <div className="persona">
-                <div className="foto">
-                    <img
-                        src={url}
-                        alt={nome}
-                        className="photo"
-                    />
+                <div className="contenitore">
+                    <div className="foto">
+                        <img
+                            src={url}
+                            alt={nome}
+                            className="photo"
+                        />
+                    </div>
                 </div>
 
                 <div className="testo">

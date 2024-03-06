@@ -41,16 +41,37 @@ h2 {
   margin: 10px 0 0 0;
 }
 
+.contenitore{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .foto { 
-  max-width: 200px;
+  width: 200px;
   height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
 }
 
 .foto>img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
+  height: 100%; 
+  width: auto;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.foto:hover {
+  width: 300px;
+  height: 400px;
 }
 
 .testo{
